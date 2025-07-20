@@ -19,7 +19,7 @@ import {
 } from "../../../../script.js";
 
 // Keep track of where your extension is located, name should match repo name
-const extensionName = "st-extension-example";
+const extensionName = "st_claude_utils";
 const extensionFolderPath = `scripts/extensions/third-party/${extensionName}`;
 const extensionSettings = extension_settings[extensionName];
 const defaultSettings = {
