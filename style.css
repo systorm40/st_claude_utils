@@ -1,0 +1,43 @@
+.claude-utils-settings {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.claude-utils-settings label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* espacio entre checkbox y texto */
+}
+
+/* Aplica espaciado entre campos */
+.setting-field {
+  margin-top: 10px;
+}
+
+/* Input numérico pequeño */
+.setting-field input[type="number"] {
+  width: 80px;
+}
+
+/* Texto aclaratorio estilo comentario */
+.setting-hint {
+  font-size: 0.85em;
+  color: #aaa;
+  margin-left: 5px;
+}
+
+/* Textarea amplio y contenido */
+.setting-field textarea {
+  width: 100%;
+  max-width: 500px;
+}
+
+.horizontal-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#trigger_cache_refresh_button {
+  margin-left: auto;
+}

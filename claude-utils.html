@@ -1,0 +1,58 @@
+<div class="claude-utils-settings">
+  <div class="inline-drawer">
+    <div class="inline-drawer-toggle inline-drawer-header">
+        <b>Claude Utils</b>
+        <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+    </div>
+    <div class="inline-drawer-content">
+
+      <!-- Sección: Cache Refresher -->
+      <div class="claude-utils-settings flex-container">
+        <h4>Cache Refresher</h4>
+        <div class="horizontal-row">
+          
+        <label>
+          <input type="checkbox" id="cache_refresher_enabled" />Enabled
+        </label>
+        
+         <!--div class="claude-utils-settings flex-container"-->
+          <input id="trigger_cache_refresh_button" class="menu_button" type="submit" value="Trigger Caché Refresh !" />
+        <!--/div-->
+        </div>
+
+        <div class="setting-field">
+            <input id="cache_timeout" class="text_pole widthUnset" type="number" min="30" max="300" step="1" />
+            <span class="setting-hint">Cache Timeout (s)</span>
+        </div>
+
+        <div class="setting-field">
+            <input type="number" id="cache_max_tokens" class="text_pole widthUnset" type="number" min="0" max="200000" step="1" />
+            <span class="setting-hint">Max Tokens (0: Use default)</span>
+        </div>
+
+        <div class="setting-field">
+            <label for="cache_prompt">Prompt:</label><br />
+            <textarea id="cache_prompt" rows="4"></textarea>
+        </div>
+      </div>
+
+      <!-- Sección: Word Count -->
+      <div class="claude-utils-settings flex-container">
+        <h4>Word Count</h4>
+        <label>
+          <input type="checkbox" id="word_count_enabled" /> Enabled
+        </label>
+      </div>
+
+      <!-- Sección: Time Counter -->
+      <div class="claude-utils-settings flex-container">
+        <h4>Time Counter</h4>
+        <label>
+          <input type="checkbox" id="time_counter_enabled" /> Enabled
+        </label>
+      </div>
+
+      <hr class="sysHR" />
+    </div>
+  </div>
+</div>
